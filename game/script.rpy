@@ -22,7 +22,7 @@ image bs = ("blacksmith.png")
 image dad = ("father.png")
 image dad2 = ("father2.png")
 
-#else#
+# Other Variables
 define white = Fade(0.5, 1.0, 0.5, color="#fff")
 define armor = False
 define books = False
@@ -82,12 +82,10 @@ label start:
         "inspect windows":
             $ windows += True
             "i saw a castle{w}, never seen this place before."
-    if inspect == 1:
-        jump blackroom
-    if inspect == 2:
-        jump blackroom
-    if inspect == 3:
+    if armor == True and books == True and windows == True:
         jump bsr
+    else:
+        jump blackroom
 label bsr:
 
     "this place is..."
