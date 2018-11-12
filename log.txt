@@ -1,21 +1,21 @@
-Mon Nov 12 14:50:11 2018
+Mon Nov 12 14:51:28 2018
 Windows-8-6.2.9200
 Ren'Py 7.1.1.929
  
 
 Bootstrap to the start of init.init took 0.23s
 Early init took 0.01s
-Loader init took 0.07s
-Loading error handling took 0.08s
-Loading script took 0.53s
-Loading save slot metadata. took 0.06s
+Loader init took 0.06s
+Loading error handling took 0.07s
+Loading script took 0.55s
+Loading save slot metadata. took 0.05s
 Loading persistent took 0.00s
 
 File "game/script.rpy", line 102: expected ':' not found.
     label out2
               ^
 DPI scale factor: 1.000000
-Interface start took 0.92s
+Interface start took 0.50s
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -242,71 +242,4 @@ Number of texture units: 8
 Using shader environment.
 Using copy RTT.
 Using gl renderer.
-Texture testing:
-- Hardware max texture size: 16384
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Total time until interface ready: 5.22900009155s
-While handling exception:
-Traceback (most recent call last):
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\error.py", line 187, in report_parse_errors
-    error_fn=error_fn,
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\game.py", line 281, in invoke_in_new_context
-    return callable(*args, **kwargs)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\error.py", line 45, in call_exception_screen
-    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\ui.py", line 289, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2662, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 3340, in interact_core
-    self.quit_event()
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2366, in quit_event
-    renpy.exports.take_screenshot()
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\exports.py", line 1574, in take_screenshot
-    renpy.game.interface.take_screenshot(scale, background=background)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2112, in take_screenshot
-    surf = renpy.display.scale.smoothscale(surf, scale)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\scale.py", line 95, in real_smoothscale
-    dest = pgrender.surface_unscaled(size, src)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\pgrender.py", line 118, in surface
-    surf = Surface((width + 4, height + 4), 0, sample)
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
-
-Full traceback:
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\bootstrap.py", line 313, in bootstrap
-    renpy.main.main()
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\main.py", line 415, in main
-    if renpy.parser.report_parse_errors():
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\parser.py", line 2787, in report_parse_errors
-    renpy.display.error.report_parse_errors(full_text, error_fn)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\error.py", line 187, in report_parse_errors
-    error_fn=error_fn,
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\game.py", line 281, in invoke_in_new_context
-    return callable(*args, **kwargs)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\error.py", line 45, in call_exception_screen
-    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\ui.py", line 289, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2662, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 3340, in interact_core
-    self.quit_event()
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2366, in quit_event
-    renpy.exports.take_screenshot()
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\exports.py", line 1574, in take_screenshot
-    renpy.game.interface.take_screenshot(scale, background=background)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2112, in take_screenshot
-    surf = renpy.display.scale.smoothscale(surf, scale)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\scale.py", line 95, in real_smoothscale
-    dest = pgrender.surface_unscaled(size, src)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\pgrender.py", line 118, in surface
-    surf = Surface((width + 4, height + 4), 0, sample)
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
-
-After loading the script.
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Textu

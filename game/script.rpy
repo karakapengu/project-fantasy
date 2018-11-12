@@ -99,8 +99,8 @@ label bsr:
         "no":
             "im not feeling like it."
             jump out2
-label out2
-    b "DINNER READY!":
+label out2:
+    b "DINNER READY!"
     "oh..."
 
     return
