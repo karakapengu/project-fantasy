@@ -24,7 +24,9 @@ image dad2 = ("father2.png")
 
 #else#
 define white = Fade(0.5, 1.0, 0.5, color="#fff")
-
+define armor = False
+define books = False
+define windows = False
 ##############################################START##################################
 label start:
     ## PROLOGUE
@@ -72,13 +74,13 @@ label start:
     #This is the first choice, need revision in inpect value
     menu blackroom:
         "inspect armor":
-            $ inspect += 1
+            $ armor += True
             "it looks handmade."
         "inspect books":
-            $ inspect += 1
+            $ books += True
             "i can see some enchant words in there."
         "inspect windows":
-            $ inspect += 1
+            $ windows += True
             "i saw a castle{w}, never seen this place before."
     if inspect == 1:
         jump blackroom
