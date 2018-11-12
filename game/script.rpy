@@ -67,12 +67,9 @@ label start:
     b "what with that face?{w} cheer up! im making dinner."
     hide bs with dissolve
     "what a weird guy.{w} where am i anyway?"
-<<<<<<< HEAD
     $ inspect = 0
-=======
 
     #This is the first choice, need revision in inpect value
->>>>>>> 9f94d668e9e783f7956769e4b991ea48c380e70e
     menu blackroom:
         "inspect armor":
             $ inspect += 1
@@ -90,10 +87,7 @@ label start:
     if inspect == 3:
         jump bsr
 label bsr:
-<<<<<<< HEAD
-=======
 
->>>>>>> 9f94d668e9e783f7956769e4b991ea48c380e70e
     "this place is..."
     "{i}A Forgery{/i}{w}, That's the only thing appear in my mind."
     "oh wait did that guy said he was a blacksmith?{w} well my mind is still hazy that time."
