@@ -75,6 +75,8 @@ label start:
             $ inspect += 1
         "inspect windows":
             $ inspect += 1
+label bsr:
+    "this place is..."
 
 
     return
