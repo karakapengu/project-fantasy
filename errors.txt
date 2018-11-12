@@ -2,6 +2,7 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/script.rpy", line 27: invalid syntax
     = False
      ^
@@ -16,3 +17,11 @@ File "game/script.rpy", line 29: invalid syntax
 
 Ren'Py Version: Ren'Py 7.1.1.929
 Tue Nov 13 07:17:36 2018
+=======
+File "game/script.rpy", line 102: expected ':' not found.
+    label out2
+              ^
+
+Ren'Py Version: Ren'Py 7.1.1.929
+Mon Nov 12 14:51:29 2018
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15

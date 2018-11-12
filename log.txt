@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Tue Nov 13 07:13:48 2018
+=======
+Mon Nov 12 14:51:28 2018
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15
 Windows-8-6.2.9200
 Ren'Py 7.1.1.929
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 0.19s
 Early init took 0.01s
 Loader init took 0.14s
@@ -20,6 +25,21 @@ File "game/script.rpy", line 90: expected statement.
         ^
 DPI scale factor: 1.000000
 Interface start took 0.64s
+=======
+Bootstrap to the start of init.init took 0.23s
+Early init took 0.01s
+Loader init took 0.06s
+Loading error handling took 0.07s
+Loading script took 0.55s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 102: expected ':' not found.
+    label out2
+              ^
+DPI scale factor: 1.000000
+Interface start took 0.50s
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -255,6 +275,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 5.8630001545s
 Resetting cache.
 Bootstrap to the start of init.init took 34.22s
@@ -263,6 +284,16 @@ Loader init took 0.04s
 Loading error handling took 0.11s
 Loading script took 1.79s
 Loading save slot metadata. took 0.01s
+=======
+Total time until interface ready: 3.43899989128s
+Resetting cache.
+Bootstrap to the start of init.init took 62.83s
+Early init took 0.01s
+Loader init took 0.09s
+Loading error handling took 0.11s
+Loading script took 0.52s
+Loading save slot metadata. took 0.07s
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15
 Loading persistent took 0.00s
 
 File "game/script.rpy", line 88: expected ':' not found.
@@ -515,6 +546,7 @@ Loading script took 2.37s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.01s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
+<<<<<<< HEAD
 Running init code took 0.44s
 Loading analysis data took 0.09s
 Analyze and compile ATL took 0.01s
@@ -538,6 +570,31 @@ Save bytecode. took 0.14s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.04s
+=======
+Running init code took 0.39s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Asus\\AppData\\Roaming/RenPy/backups\\project fantasy':
+Dump and make backups. took 0.51s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.01s
+Init translation took 0.16s
+Build styles took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.12s
+Save screen analysis took 0.50s
+Prepare screens took 0.50s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.33s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -773,6 +830,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 45.7730000019s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -1664,3 +1722,22 @@ Total time until interface ready: 240.085000038s
 - Frame drawn at 0.047667 seconds.
 - Frame drawn at 0.065667 seconds.
 - 0.065667 seconds to render 5 frames.
+=======
+Total time until interface ready: 67.6970000267s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.210667 seconds.
+- Frame drawn at 0.318667 seconds.
+- Frame drawn at 0.335667 seconds.
+- Frame drawn at 0.361667 seconds.
+- 0.361667 seconds to render 5 frames.
+- Frame drawn at 0.376667 seconds.
+- 0.166000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.67s
+Build styles took 0.02s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15

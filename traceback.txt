@@ -1,6 +1,7 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 While running game code:
   File "game/script.rpy", line 73, in script
     $ armor == False
@@ -11,10 +12,15 @@ NameError: name 'armor' is not defined
 After loading the script.
 TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
 >>>>>>> 47daf80e0450e8939ec7576347baf7677b1ea76f
+=======
+After loading the script.
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
 <<<<<<< HEAD
   File "game/script.rpy", line 73, in script
     $ armor == False
@@ -31,6 +37,8 @@ Ren'Py 7.1.1.929
 project fantasy alpha 1.0
 Tue Nov 13 07:16:56 2018
 =======
+=======
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15
   File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\bootstrap.py", line 313, in bootstrap
     renpy.main.main()
   File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\main.py", line 415, in main
@@ -65,4 +73,7 @@ Windows-8-6.2.9200
 Ren'Py 7.1.1.929
  
 Mon Nov 12 14:50:38 2018
+<<<<<<< HEAD
 >>>>>>> 47daf80e0450e8939ec7576347baf7677b1ea76f
+=======
+>>>>>>> 9065f00154c6ce443c92dcb891fe13ba9e653d15
