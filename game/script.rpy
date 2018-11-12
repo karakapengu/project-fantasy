@@ -29,7 +29,7 @@ image dad2 = ("father2.png")
 #else#
 define white = Fade(0.5, 1.0, 0.5, color="#fff")
 
-
+##############################################START##################################
 label start:
     scene bg da with dissolve
     "That day...{w} I'm awake because of the ruckus outside."
@@ -67,10 +67,11 @@ label start:
     b "what with that face?{w} cheer up! im making dinner."
     hide bs with dissolve
     "what a weird guy.{w} where am i anyway?"
+    $ inspect = 0
     menu blackroom:
         "inspect armor":
             $ inspect += 1
-            "it looks handmade"
+            "it looks handmade."
         "inspect books":
             $ inspect += 1
             "i can see some enchant words in there."
@@ -84,11 +85,9 @@ label start:
     if inspect == 3:
         jump bsr
 label bsr:
-
-
     "this place is..."
     "blacksmith is the only thing appear in my mind."
     "oh wait did that guy said he was a blacksmith?{w} well my mind is still hazy that time."
 
-
     return
+#########################################END###################################3
