@@ -91,6 +91,16 @@ label bsr:
     "this place is..."
     "{i}A Forgery{/i}{w}, That's the only thing appear in my mind."
     "oh wait did that guy said he was a blacksmith?{w} well my mind is still hazy that time."
+    "should i go outside?"
+    menu out:
+        "yes":
+            "well i cant just stay here."
+            jump out2
+        "no":
+            "im not feeling like it."
+            jump out2
+label out2
+
 
     return
 #########################################END###################################3
