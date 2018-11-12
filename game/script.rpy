@@ -21,7 +21,9 @@ define al = Character("alia")
 image bg in1 = ("intro.png")
 image bg in2 = ("intro2.png")
 image bg da = ("dark.png")
+image bg blro = ("blro.png")
 ##character image##
+image bs = ("blacksmith.png")
 image dad = ("father.png")
 image dad2 = ("father2.png")
 #else#
@@ -51,10 +53,19 @@ label start:
     "Ugh, i feel dizzy{w}, i cant keep-" with vpunch
     scene bg da with dissolve
     pause
-    
+    "ugh... my head is still dizzy."
+    "where am i?"
+    b "Ah, you're finally awake."
+    "who?"
+    scene bg blro with dissolve
+    "what is this place?"
+    show bs with dissolve
+    b "yo."
+    ai "Who are you?"
+    b "Me? I'm a blacksmith, you can call me Uncle."
+    "who is this guy{w}, the way he talks kinda sounds anoying."
+    b "what with that face?{w} cheer up! im making dinner."
+    hide bs with dissolve
 
-
-
-    # This ends the game.
 
     return
