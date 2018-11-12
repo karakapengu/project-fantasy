@@ -1,10 +1,4 @@
-﻿#This is a custom dissolve transform
-transform pindah:
-    alpha 0.0
-    xalign 1.0
-    yalign 1.0
-    linear .2 alpha 1.0 #This is the dissolve part, linear is the time
-#####KARAKTER##########
+﻿#####KARAKTER##########
 define qq = Character("?????")
 define f = Character("father")
 define ai = Character("Aiden")
@@ -22,15 +16,19 @@ image bg in1 = ("intro.png")
 image bg in2 = ("intro2.png")
 image bg da = ("dark.png")
 image bg blro = ("blro.png")
+
 ##character image##
 image bs = ("blacksmith.png")
 image dad = ("father.png")
 image dad2 = ("father2.png")
+
 #else#
 define white = Fade(0.5, 1.0, 0.5, color="#fff")
 
 
 label start:
+    ## PROLOGUE
+    # Opening Scene
     scene bg da with dissolve
     "That day...{w} I'm awake because of the ruckus outside."
     "so I go and check it out...{w} I can't believe what I'm seeing that day."
@@ -53,6 +51,8 @@ label start:
     "Ugh, i feel dizzy{w}, i cant keep-" with vpunch
     scene bg da with dissolve
     pause
+
+    # Blacksmith Scene
     "ugh... my head is still dizzy."
     "where am i?"
     b "Ah, you're finally awake."
@@ -67,6 +67,8 @@ label start:
     b "what with that face?{w} cheer up! im making dinner."
     hide bs with dissolve
     "what a weird guy.{w} where am i anyway?"
+
+    #This is the first choice, need revision in inpect value
     menu blackroom:
         "inspect armor":
             $ inspect += 1
@@ -85,9 +87,8 @@ label start:
         jump bsr
 label bsr:
 
-
     "this place is..."
-    "blacksmith is the only thing appear in my mind."
+    "{i}A Forgery{/i}{w}, That's the only thing appear in my mind."
     "oh wait did that guy said he was a blacksmith?{w} well my mind is still hazy that time."
 
 
