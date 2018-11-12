@@ -24,6 +24,10 @@ image dad2 = ("father2.png")
 
 #else#
 define white = Fade(0.5, 1.0, 0.5, color="#fff")
+define armor = False
+define books = False
+define windows = False
+
 
 
 label start:
@@ -69,22 +73,21 @@ label start:
     "what a weird guy.{w} where am i anyway?"
 
     #This is the first choice, need revision in inpect value
+
     menu blackroom:
         "inspect armor":
-            $ inspect += 1
+            $ armor += True
             "it looks handmade"
         "inspect books":
-            $ inspect += 1
+            $ books += True
             "i can see some enchant words in there."
         "inspect windows":
-            $ inspect += 1
+            $ windows += True
             "i saw a castle{w}, never seen this place before."
-    if inspect == 1:
+    if  armor == True and books == True and windows == True :
+            jump bsr
+    else :
         jump blackroom
-    if inspect == 2:
-        jump blackroom
-    if inspect == 3:
-        jump bsr
 label bsr:
 
     "this place is..."

@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 79: expected menuitem
-    if inspect == 1:
-    ^
+File "game/script.rpy", line 27: invalid syntax
+    = False
+     ^
+
+File "game/script.rpy", line 28: invalid syntax
+    = False
+     ^
+
+File "game/script.rpy", line 29: invalid syntax
+    = False
+     ^
 
 Ren'Py Version: Ren'Py 7.1.1.929
-Mon Nov 12 14:03:03 2018
+Tue Nov 13 07:17:36 2018
