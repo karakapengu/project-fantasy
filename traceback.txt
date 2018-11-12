@@ -1,42 +1,64 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After loading the script.
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+While loading <'Image' u'blro.png'>:
+  File "game/script.rpy", line 60, in script
+    scene bg blro with dissolve
+IOError: Couldn't find file 'blro.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\bootstrap.py", line 313, in bootstrap
-    renpy.main.main()
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\main.py", line 415, in main
-    if renpy.parser.report_parse_errors():
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\parser.py", line 2787, in report_parse_errors
-    renpy.display.error.report_parse_errors(full_text, error_fn)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\error.py", line 187, in report_parse_errors
-    error_fn=error_fn,
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\game.py", line 281, in invoke_in_new_context
-    return callable(*args, **kwargs)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\error.py", line 45, in call_exception_screen
-    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\ui.py", line 289, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/script.rpy", line 60, in script
+    scene bg blro with dissolve
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\ast.py", line 1357, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\exports.py", line 1456, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2217, in do_with
+    clear=clear)
   File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2662, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 3340, in interact_core
-    self.quit_event()
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2366, in quit_event
-    renpy.exports.take_screenshot()
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\exports.py", line 1574, in take_screenshot
-    renpy.game.interface.take_screenshot(scale, background=background)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2112, in take_screenshot
-    surf = renpy.display.scale.smoothscale(surf, scale)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\scale.py", line 95, in real_smoothscale
-    dest = pgrender.surface_unscaled(size, src)
-  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\pgrender.py", line 118, in surface
-    surf = Surface((width + 4, height + 4), 0, sample)
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 3148, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\core.py", line 2065, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 487, in renpy.display.render.render_screen
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\layout.py", line 719, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\transition.py", line 361, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\layout.py", line 719, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\layout.py", line 719, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\image.py", line 497, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\image.py", line 306, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 147, in renpy.display.render.render
+  File "render.pyx", line 235, in renpy.display.render.render
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\im.py", line 580, in render
+    return cache.get(self, render=True)
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\im.py", line 266, in get
+    surf = image.load()
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\display\im.py", line 625, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "D:\other stuff\renpy\renpy-7.1.1-sdk\renpy\loader.py", line 576, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'blro.png'.
 
 Windows-8-6.2.9200
 Ren'Py 7.1.1.929
- 
-Mon Nov 12 06:05:24 2018
+project fantasy beta
+Mon Nov 12 14:10:37 2018

@@ -73,10 +73,22 @@ label start:
             "it looks handmade"
         "inspect books":
             $ inspect += 1
+            "i can see some enchant words in there."
         "inspect windows":
             $ inspect += 1
+            "i saw a castle{w}, never seen this place before."
+    if inspect == 1:
+        jump blackroom
+    if inspect == 2:
+        jump blackroom
+    if inspect == 3:
+        jump bsr
 label bsr:
+
+
     "this place is..."
+    "blacksmith is the only thing appear in my mind."
+    "oh wait did that guy said he was a blacksmith?{w} well my mind is still hazy that time."
 
 
     return
