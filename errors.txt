@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 79: expected menuitem
-    if inspect == 1:
-    ^
+File "game/script.rpy", line 102: expected ':' not found.
+    label out2
+              ^
 
 Ren'Py Version: Ren'Py 7.1.1.929
-Mon Nov 12 14:03:03 2018
+Mon Nov 12 14:50:12 2018
