@@ -66,6 +66,15 @@ label start:
     "who is this guy{w}, the way he talks kinda sounds anoying."
     b "what with that face?{w} cheer up! im making dinner."
     hide bs with dissolve
+    "what a weird guy.{w} where am i anyway?"
+    menu blackroom:
+        "inspect armor":
+            $ inspect += 1
+            "it looks handmade"
+        "inspect books":
+            $ inspect += 1
+        "inspect windows":
+            $ inspect += 1
 
 
     return
