@@ -16,11 +16,13 @@ image bg in1 = ("intro.png")
 image bg in2 = ("intro2.png")
 image bg da = ("dark.png")
 image bg blro = ("blro.png")
+image bg blk = ("blk.png")
 
 ##character image##
 image bs = ("blacksmith.png")
 image dad = ("father.png")
 image dad2 = ("father2.png")
+image m = ("myster.png")
 
 # Other Variables
 define white = Fade(0.5, 1.0, 0.5, color="#fff")
@@ -50,7 +52,13 @@ label start:
     "but...{w} when i comeback..."
     scene bg in2 with dissolve
     "It's finished."
+    "{i}crumbling{/i}" with hpunch
+    "that sound...{w} from behind"
+    "some stone material from the local house fall right onto me."
     "Ugh, i feel dizzy{w}, i cant keep-" with vpunch
+    "....."
+    show m with dissolve
+    "who?"
     scene bg da with dissolve
     pause
 
@@ -102,16 +110,31 @@ label bsr:
 label out2:
     b "DINNER READY!"
     "oh..."
-    #new bg#
+    scene bg blk :
+        zoom 1.5
+        xalign 0.6
+        ease 4.0 xalign 0.0
+    with dissolve
+    pause
+    show bg blk :
+        zoom 1.0
+    with dissolve
+    show bs with easeinright
+
     b "looks who finally get out from his cave{w}, bon apetit!"
     ai "ye-yeah."
+    hide bs with easeoutright
     "i never seen this meal before."
     "{i}Groooowl~{/i}"
     "fuck, im hungry."
-    "well... chooser cant be beggars"
+    "well... beggar cant be chooser."
     b "look at you{w} eating my food like there's no tomorrow."
+    b "eat up and get strong okay."
+    "shut up oldman."
+    "....."
     "wait{w}, theres one thing that i need to clear out first."
     ai "uh... uncle."
+    show bs with easeinright
     b "yes yes, what do you want from this uncle?"
     ai "what am i doing here?"
     b "im just gonna say it{w}, i found you on the street."
@@ -120,18 +143,29 @@ label out2:
     ai "what?"
     b "so i taking of you since nobody will."
     "this is too much."
-    b "dont be sad kid{w}, atleast you got place to stay"
-    "i dont want to hear that from a kidnaper mouth."
+    b "dont be sad kid{w}, atleast you got place to stay."
+    "i dont want to hear that from a kidnapper mouth."
     "but even thought...."
     ai "i dont remember where i live."
     b "lost your memory?"
     ai "this is frustating."
-    b  "calm down kid{w}, guess you only got this old man to protect you from now on"
+    b  "calm down kid{w}, guess you only got this old man to protect you from now on."
     "shut up, i dont want to admit it."
     "come on, who am i kidding."
     ai "hey oldman{w}, i'll be in you care."
     b "obviously."
     "i have no choice."
+    scene bg da with dissolve
+    ###training arc###
+    ai "im going out."
+    b "be careful kid."
+    "you dont need to answer that."
+    ##new bg##
+    "several years ago im just a stranger in this town..."
+    "well this is my life now{w}, guess im just gonna bear with it."
+    
+
+
 
 
     return
