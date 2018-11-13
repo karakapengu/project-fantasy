@@ -102,6 +102,36 @@ label bsr:
 label out2:
     b "DINNER READY!"
     "oh..."
+    #new bg#
+    b "looks who finally get out from his cave{w}, bon apetit!"
+    ai "ye-yeah."
+    "i never seen this meal before."
+    "{i}Groooowl~{/i}"
+    "fuck, im hungry."
+    "well... chooser cant be beggars"
+    b "look at you{w} eating my food like there's no tomorrow."
+    "wait{w}, theres one thing that i need to clear out first."
+    ai "uh... uncle."
+    b "yes yes, what do you want from this uncle?"
+    ai "what am i doing here?"
+    b "im just gonna say it{w}, i found you on the street."
+    ai "huh?"
+    b "my son is out from the town so im lonely, you know?"
+    ai "what?"
+    b "so i taking of you since nobody will."
+    "this is too much."
+    b "dont be sad kid{w}, atleast you got place to stay"
+    "i dont want to hear that from a kidnaper mouth."
+    "but even thought...."
+    ai "i dont remember where i live."
+    b "lost your memory?"
+    ai "this is frustating."
+    b  "calm down kid{w}, guess you only got this old man to protect you from now on"
+    "shut up, i dont want to admit it."
+    "come on, who am i kidding."
+    ai "hey oldman{w}, i'll be in you care."
+    b "obviously."
+
 
     return
 #########################################END###################################3
