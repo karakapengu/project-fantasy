@@ -132,7 +132,6 @@ label out2:
     ai "hey oldman{w}, i'll be in you care."
     b "obviously."
     "i have no choice."
-    #blacksmith arc D#
 
 
     return
