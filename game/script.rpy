@@ -36,7 +36,15 @@ label start:
     scene bg da with dissolve
     "That day...{w} I'm awake because of the ruckus outside."
     "so I go and check it out...{w} I can't believe what I'm seeing that day."
-    show bg in1 with white
+    show villageburn:
+        yalign 1.0
+        xalign 1.0
+        ease 6.0 xalign 0.0
+    with white
+    pause
+    show villageburn:
+        zoom 0.75
+    with dissolve
     "The village{w}, is attacked by a dragon"
 
     show dad with dissolve
@@ -126,7 +134,7 @@ label out2:
     hide bs with easeoutright
     "i never seen this meal before."
     "{i}Groooowl~{/i}"
-    "fuck, im hungry."
+    "damn, im hungry."
     "well... beggar cant be chooser."
     b "look at you{w} eating my food like there's no tomorrow."
     b "eat up and get strong okay."
