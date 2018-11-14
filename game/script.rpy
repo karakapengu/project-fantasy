@@ -141,7 +141,7 @@ label out2:
     ai "huh?"
     b "my son is out from the town so im lonely, you know?"
     ai "what?"
-    b "so i taking of you since nobody will."
+    b "so im taking care of you since nobody will."
     "this is too much."
     b "dont be sad kid{w}, atleast you got place to stay."
     "i dont want to hear that from a kidnapper mouth."
@@ -163,7 +163,7 @@ label out2:
     ##new bg##
     "several years ago im just a stranger in this town..."
     "well this is my life now{w}, guess im just gonna bear with it."
-    
+
 
 
 
