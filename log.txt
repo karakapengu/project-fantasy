@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Tue Nov 13 14:18:54 2018
+=======
+Wed Nov 14 00:52:27 2018
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
 Windows-8-6.2.9200
 Ren'Py 7.1.1.929
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 0.16s
 Early init took 0.01s
 Loader init took 0.35s
@@ -6829,6 +6834,38 @@ Save bytecode. took 0.16s
 Running _start took 0.01s
 Performance test:
 Interface start took 0.07s
+=======
+Bootstrap to the start of init.init took 0.57s
+Early init took 0.02s
+Loader init took 0.12s
+Loading error handling took 0.25s
+Loading script took 1.40s
+Loading save slot metadata. took 0.14s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 1.76s
+Loading analysis data took 0.16s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.66s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.39s
+Cleaning stores took 0.00s
+Init translation took 0.32s
+Build styles took 0.09s
+Load screen analysis took 0.00s
+Analyze screens took 0.12s
+Save screen analysis took 0.47s
+Prepare screens took 0.43s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.44s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -6836,7 +6873,7 @@ Windowed mode.
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Vendor: 'Intel'
 Renderer: 'Intel(R) HD Graphics 520'
-Version: '4.4.0 - Build 21.20.16.4627'
+Version: '4.4.0 - Build 21.20.16.4550'
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 768, 'current_w': 1366, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
 Extensions:
@@ -6919,7 +6956,6 @@ Extensions:
     GL_ARB_separate_shader_objects
     GL_ARB_shader_atomic_counters
     GL_ARB_shader_bit_encoding
-    GL_ARB_shader_draw_parameters
     GL_ARB_shader_image_load_store
     GL_ARB_shader_image_size
     GL_ARB_shader_objects
@@ -7064,6 +7100,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 745.555000067s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -7104,6 +7141,47 @@ Save bytecode. took 0.18s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.08s
+=======
+Total time until interface ready: 13.9960000515s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.017667 seconds.
+- Frame drawn at 0.038667 seconds.
+- Frame drawn at 0.052667 seconds.
+- Frame drawn at 0.072667 seconds.
+- 0.072667 seconds to render 5 frames.
+Resetting cache.
+Bootstrap to the start of init.init took 24.86s
+Early init took 0.01s
+Loader init took 0.09s
+Loading error handling took 0.12s
+Loading script took 0.52s
+Loading save slot metadata. took 0.09s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.21s
+Loading analysis data took 0.12s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.42s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.03s
+Load screen analysis took 0.14s
+Analyze screens took 0.01s
+Save screen analysis took 0.00s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.43s
+Running _start took 0.03s
+Performance test:
+Interface start took 0.17s
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -7111,7 +7189,7 @@ Windowed mode.
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Vendor: 'Intel'
 Renderer: 'Intel(R) HD Graphics 520'
-Version: '4.4.0 - Build 21.20.16.4627'
+Version: '4.4.0 - Build 21.20.16.4550'
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 768, 'current_w': 1366, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
 Extensions:
@@ -7194,7 +7272,6 @@ Extensions:
     GL_ARB_separate_shader_objects
     GL_ARB_shader_atomic_counters
     GL_ARB_shader_bit_encoding
-    GL_ARB_shader_draw_parameters
     GL_ARB_shader_image_load_store
     GL_ARB_shader_image_size
     GL_ARB_shader_objects
@@ -7339,6 +7416,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 772.609000206s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -7377,6 +7455,46 @@ Prepare screens took 0.15s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.20s
 Running _start took 0.00s
+=======
+Total time until interface ready: 33.1960000992s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.022667 seconds.
+- Frame drawn at 0.041667 seconds.
+- Frame drawn at 0.156667 seconds.
+- Frame drawn at 0.170667 seconds.
+- 0.170667 seconds to render 5 frames.
+Resetting cache.
+Bootstrap to the start of init.init took 800.30s
+Early init took 0.02s
+Loader init took 0.23s
+Loading error handling took 0.41s
+Loading script took 4.87s
+Loading save slot metadata. took 0.66s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.51s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Asus\\AppData\\Roaming/RenPy/backups\\project fantasy':
+Dump and make backups. took 0.37s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.17s
+Build styles took 0.03s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.32s
+Prepare screens took 0.49s
+Save pyanalysis. took 0.36s
+Save bytecode. took 0.40s
+Running _start took 0.01s
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
 Performance test:
 Interface start took 0.08s
 
@@ -7386,7 +7504,7 @@ Windowed mode.
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Vendor: 'Intel'
 Renderer: 'Intel(R) HD Graphics 520'
-Version: '4.4.0 - Build 21.20.16.4627'
+Version: '4.4.0 - Build 21.20.16.4550'
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 768, 'current_w': 1366, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
 Extensions:
@@ -7469,7 +7587,6 @@ Extensions:
     GL_ARB_separate_shader_objects
     GL_ARB_shader_atomic_counters
     GL_ARB_shader_bit_encoding
-    GL_ARB_shader_draw_parameters
     GL_ARB_shader_image_load_store
     GL_ARB_shader_image_size
     GL_ARB_shader_objects
@@ -7614,6 +7731,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 781.282999992s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -7654,6 +7772,55 @@ Save bytecode. took 0.15s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.06s
+=======
+Total time until interface ready: 814.555999994s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.018667 seconds.
+- Frame drawn at 0.095667 seconds.
+- Frame drawn at 0.124667 seconds.
+- Frame drawn at 0.137667 seconds.
+- 0.137667 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.86s
+Build styles took 0.07s
+Load screen analysis took 0.09s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Bootstrap to the start of init.init took 925.16s
+Early init took 0.01s
+Loader init took 0.11s
+Loading error handling took 0.10s
+Loading script took 0.80s
+Loading save slot metadata. took 0.14s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.30s
+Loading analysis data took 0.21s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Asus\\AppData\\Roaming/RenPy/backups\\project fantasy':
+Dump and make backups. took 0.40s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.24s
+DPI scale factor: 1.000000
+Creating interface object took 0.03s
+Cleaning stores took 0.00s
+Init translation took 0.24s
+Build styles took 0.04s
+Load screen analysis took 0.00s
+Analyze screens took 0.09s
+Save screen analysis took 0.34s
+Prepare screens took 0.43s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.27s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.12s
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -7661,7 +7828,7 @@ Windowed mode.
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Vendor: 'Intel'
 Renderer: 'Intel(R) HD Graphics 520'
-Version: '4.4.0 - Build 21.20.16.4627'
+Version: '4.4.0 - Build 21.20.16.4550'
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 768, 'current_w': 1366, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
 Extensions:
@@ -7744,7 +7911,6 @@ Extensions:
     GL_ARB_separate_shader_objects
     GL_ARB_shader_atomic_counters
     GL_ARB_shader_bit_encoding
-    GL_ARB_shader_draw_parameters
     GL_ARB_shader_image_load_store
     GL_ARB_shader_image_size
     GL_ARB_shader_objects
@@ -7889,6 +8055,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 789.359000206s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -7928,6 +8095,48 @@ Save bytecode. took 0.11s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.08s
+=======
+Total time until interface ready: 934.105999947s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.024667 seconds.
+- Frame drawn at 0.046667 seconds.
+- Frame drawn at 0.064667 seconds.
+- Frame drawn at 0.082667 seconds.
+- 0.082667 seconds to render 5 frames.
+Resetting cache.
+Bootstrap to the start of init.init took 1125.55s
+Early init took 0.01s
+Loader init took 0.13s
+Loading error handling took 0.22s
+Loading script took 1.65s
+Loading save slot metadata. took 0.12s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.44s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Asus\\AppData\\Roaming/RenPy/backups\\project fantasy':
+Dump and make backups. took 0.60s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.23s
+DPI scale factor: 1.000000
+Creating interface object took 0.02s
+Cleaning stores took 0.00s
+Init translation took 0.32s
+Build styles took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.14s
+Save screen analysis took 0.86s
+Prepare screens took 0.58s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.53s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.11s
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -7935,6 +8144,7 @@ Windowed mode.
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Vendor: 'Intel'
 Renderer: 'Intel(R) HD Graphics 520'
+<<<<<<< HEAD
 Version: '4.4.0 - Build 21.20.16.4627'
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 768, 'current_w': 1366, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
@@ -8210,6 +8420,9 @@ Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Vendor: 'Intel'
 Renderer: 'Intel(R) HD Graphics 520'
 Version: '4.4.0 - Build 21.20.16.4627'
+=======
+Version: '4.4.0 - Build 21.20.16.4550'
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 768, 'current_w': 1366, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
 Extensions:
@@ -8292,7 +8505,6 @@ Extensions:
     GL_ARB_separate_shader_objects
     GL_ARB_shader_atomic_counters
     GL_ARB_shader_bit_encoding
-    GL_ARB_shader_draw_parameters
     GL_ARB_shader_image_load_store
     GL_ARB_shader_image_size
     GL_ARB_shader_objects
@@ -8437,6 +8649,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 952.103000164s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -8462,9 +8675,45 @@ Dump and make backups. took 0.12s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.06s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
+=======
+Total time until interface ready: 1136.67499995s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.023667 seconds.
+- Frame drawn at 0.047667 seconds.
+- Frame drawn at 0.065667 seconds.
+- Frame drawn at 0.081667 seconds.
+- 0.081667 seconds to render 5 frames.
 Cleaning stores took 0.00s
+Init translation took 0.81s
+Build styles took 0.07s
+Load screen analysis took 0.09s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Bootstrap to the start of init.init took 1254.13s
+Early init took 0.01s
+Loader init took 0.11s
+Loading error handling took 0.11s
+Loading script took 0.72s
+Loading save slot metadata. took 0.12s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.24s
+Loading analysis data took 0.12s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Asus\\AppData\\Roaming/RenPy/backups\\project fantasy':
+Dump and make backups. took 0.37s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
+DPI scale factor: 1.000000
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+<<<<<<< HEAD
 Init translation took 0.05s
 Build styles took 0.01s
 Load screen analysis took 0.00s
@@ -8476,6 +8725,19 @@ Save bytecode. took 0.12s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.07s
+=======
+Init translation took 0.19s
+Build styles took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.11s
+Save screen analysis took 0.32s
+Prepare screens took 0.42s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.66s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -8483,7 +8745,7 @@ Windowed mode.
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Vendor: 'Intel'
 Renderer: 'Intel(R) HD Graphics 520'
-Version: '4.4.0 - Build 21.20.16.4627'
+Version: '4.4.0 - Build 21.20.16.4550'
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 768, 'current_w': 1366, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
 Extensions:
@@ -8566,7 +8828,6 @@ Extensions:
     GL_ARB_separate_shader_objects
     GL_ARB_shader_atomic_counters
     GL_ARB_shader_bit_encoding
-    GL_ARB_shader_draw_parameters
     GL_ARB_shader_image_load_store
     GL_ARB_shader_image_size
     GL_ARB_shader_objects
@@ -8711,6 +8972,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 984.749000072s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -8719,3 +8981,13 @@ Total time until interface ready: 984.749000072s
 - Frame drawn at 0.043000 seconds.
 - Frame drawn at 0.060000 seconds.
 - 0.060000 seconds to render 5 frames.
+=======
+Total time until interface ready: 1262.97399998s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.022000 seconds.
+- Frame drawn at 0.033000 seconds.
+- Frame drawn at 0.045000 seconds.
+- Frame drawn at 0.062000 seconds.
+- 0.062000 seconds to render 5 frames.
+>>>>>>> 20867ff57bda131ef3979e7563cb14f48a8e6751
