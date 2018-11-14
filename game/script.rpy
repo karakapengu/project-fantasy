@@ -59,7 +59,7 @@ label start:
     "....."
     show m with dissolve
     "who?"
-    scene bg da with dissolve
+    scene bg da with dissolve and vpunch
     pause
 
     # Blacksmith Scene
@@ -90,7 +90,7 @@ label start:
         "inspect windows":
             $ windows += True
             "i saw a castle{w}, never seen this place before."
-    if armor == True and books == True and windows == True:
+    if armor >= True and books >= True and windows >= True:
         jump bsr
     else:
         jump blackroom
@@ -163,7 +163,7 @@ label out2:
     ##new bg##
     "several years ago im just a stranger in this town..."
     "well this is my life now{w}, guess im just gonna bear with it."
-    
+
 
 
 
