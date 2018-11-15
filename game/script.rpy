@@ -46,7 +46,6 @@ label start:
         zoom 0.75
     with dissolve
     "The village{w}, is attacked by a dragon"
-
     show dad with dissolve
     f "RUN AIDEN, GO FIND SOMEWHERE SAFE!"
     ai "Fa-father."
@@ -55,6 +54,7 @@ label start:
     f "I'll catch you soon!"
     hide dad2 with dissolve
     ai "DAD!!!"
+
     show bg da with dissolve
     "i does what father told me to do and go as far away from the village."
     "but...{w} when i comeback..."
@@ -164,6 +164,7 @@ label out2:
     b "obviously."
     "i have no choice."
     scene bg da with dissolve
+    pause
     ###training arc###
     ai "im going out."
     b "be careful kid."
