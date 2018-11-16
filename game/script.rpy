@@ -164,12 +164,8 @@ label out2:
     ai "hey oldman{w}, i'll be in you care."
     b "obviously."
     scene bg da with dissolve
-<<<<<<< HEAD
     centered "i have no choice."
 
-=======
-    pause
->>>>>>> 25bbe3f3989aa746394c4747551a44c6f57bb3cc
     ###training arc###
     # Nanti tambahin semacam splash screen disini
     scene bg da with fade
@@ -184,7 +180,14 @@ label out2:
     "Several years ago, I'm just a stranger in this town..."
     "well this is my life now{w}, guess im just gonna bear with it."
     "....."
-    show bg trfr with dissolve
+    scene bg stre:
+        zoom 1.1
+        yalign 0.5
+        xalign 0.5
+    with dissolve
+    show bg trfr:
+        zoom 1.0
+    with dissolve
     "time for another training."
 
     #edited bg
