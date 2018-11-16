@@ -149,7 +149,7 @@ label out2:
     ai "huh?"
     b "my son is out from the town so im lonely, you know?"
     ai "what?"
-    b "so i taking of you since nobody will."
+    b "so im taking care of you since nobody will."
     "this is too much."
     b "dont be sad kid{w}, atleast you got place to stay."
     "i dont want to hear that from a kidnapper mouth."
