@@ -1,15 +1,15 @@
 ﻿#####KARAKTER##########
-define qq = Character("?????")
-define f = Character("father")
-define ai = Character("Aiden")
-define ju = Character("Julie")
-define ph = Character("Phyrie")
-define ar = Character("Arthur")
-define ru = Character("Ruby")
-define k = Character("King")
-define q = Character("Queen")
-define b = Character("Blacksmith")
-define al = Character("alia")
+define qq = Character("?????", what_prefix='"', what_suffix= '"')
+define f = Character("Father", what_prefix='"', what_suffix= '"')
+define ai = Character("Aiden", what_prefix='"', what_suffix= '"')
+define ju = Character("Julie", what_prefix='"', what_suffix= '"')
+define ph = Character("Phyrie", what_prefix='"', what_suffix= '"')
+define ar = Character("Arthur", what_prefix='"', what_suffix= '"')
+define ru = Character("Ruby", what_prefix='"', what_suffix= '"')
+define k = Character("King", what_prefix='"', what_suffix= '"')
+define q = Character("Queen", what_prefix='"', what_suffix= '"')
+define b = Character("Blacksmith", what_prefix='"', what_suffix= '"')
+define al = Character("Alia", what_prefix='"', what_suffix= '"')
 
 #Scene bg
 image bg in1 = ("intro.png")
@@ -17,7 +17,8 @@ image bg in2 = ("intro2.png")
 image bg da = ("dark.png")
 image bg blro = ("blro.png")
 image bg blk = ("blk.png")
-
+image bg trfr = ("forest.jpg")
+image bg stre = ("street.jpg")
 ##character image##
 image bs = ("blacksmith.png")
 image dad = ("father.png")
@@ -32,10 +33,11 @@ define windows = False
 ##############################################START##################################
 label start:
     ## PROLOGUE
-    # Opening Scene
+    # Flashback 1
     scene bg da with dissolve
-    "That day...{w} I'm awake because of the ruckus outside."
-    "so I go and check it out...{w} I can't believe what I'm seeing that day."
+    centered "Unnamed Village, 469 AD"
+    centered "That day...{w} I'm awake because of the ruckus outside."
+    centered "so I go and check it out...{w} I can't believe what I'm seeing that day."
     show villageburn:
         yalign 1.0
         xalign 1.0
@@ -87,15 +89,14 @@ label start:
     "what a weird guy.{w} where am i anyway?"
     $ inspect = 0
 
-    #This is the first choice, need revision in inpect value
     menu blackroom:
-        "inspect armor":
+        "Inspect armor":
             $ armor += True
             "it looks handmade."
-        "inspect books":
+        "Peek the books":
             $ books += True
             "i can see some enchant words in there."
-        "inspect windows":
+        "See through the windows":
             $ windows += True
             "i saw a castle{w}, never seen this place before."
     if armor >= True and books >= True and windows >= True:
@@ -105,15 +106,15 @@ label start:
 label bsr:
 
     "this place is..."
-    "{i}A Forgery{/i}{w}, That's the only thing appear in my mind."
-    "oh wait did that guy said he was a blacksmith?{w} well my mind is still hazy that time."
+    "{i}A forgery{/i}{w}, that's the only thing appear in my mind."
+    "oh wait did that guy said he was a blacksmith?{w} Well my mind is still hazy that time."
     "should i go outside?"
     menu out:
-        "yes":
+        "Yes":
             "well i cant just stay here."
             jump out2
-        "no":
-            "im not feeling like it."
+        "No":
+            "Well, I'm still dizzy after all"
             jump out2
 label out2:
     b "DINNER READY!"
@@ -129,7 +130,7 @@ label out2:
     with dissolve
     show bs with easeinright
 
-    b "looks who finally get out from his cave{w}, bon apetit!"
+    b "looks who finally get out from his cave{w}, bon appétit!"
     ai "ye-yeah."
     hide bs with easeoutright
     "i never seen this meal before."
@@ -156,21 +157,53 @@ label out2:
     "but even thought...."
     ai "i dont remember where i live."
     b "lost your memory?"
-    ai "this is frustating."
+    ai "Maybe, this is frustating."
     b  "calm down kid{w}, guess you only got this old man to protect you from now on."
     "shut up, i dont want to admit it."
     "come on, who am i kidding."
     ai "hey oldman{w}, i'll be in you care."
     b "obviously."
-    "i have no choice."
     scene bg da with dissolve
+    centered "i have no choice."
+
     ###training arc###
+    # Nanti tambahin semacam splash screen disini
+    scene bg da with fade
+    centered "Blacksmith's House, 479 AD"
+    show bg blk with dissolve
     ai "im going out."
+    show bs with dissolve
     b "be careful kid."
     "you dont need to answer that."
     ##new bg##
-    "several years ago im just a stranger in this town..."
+    scene bg stre with dissolve
+    "Several years ago, I'm just a stranger in this town..."
     "well this is my life now{w}, guess im just gonna bear with it."
+    "....."
+    show bg trfr with dissolve
+    "time for another training."
+
+    #edited bg
+    #Another Flashback
+    show bg da with dissolve
+    b "you should find a job."
+    ai "huh?{w} why?"
+    b "you cant just live here forever{w}, i want you to be success in the future, you know?"
+    ai "pain in the ass."
+    b "how about being a soldier?"
+    ai "why soldier?"
+    b "my son wants to be a soldier{w}, you two should make a party and do some duty."
+    "....."
+    ai "well{w}, its not like i have anything to do"
+    b "i'll put you in an academy i know."
+    ai "i dont wanna."
+    b "no dinner tonight."
+    ai "..."
+    ai "fine."
+    #back previous bg
+    centered "and then i graduated."
+    centered "I still waiting for aplication aproval{w}, while that still taking care of guess i'll train my body."
+    scene bg trfr with dissolve
 
 
 
