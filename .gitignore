@@ -9,3 +9,4 @@ traceback.txt
 *.rpymc
 *.pyc
 *.pyo
+*.save

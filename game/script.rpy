@@ -48,7 +48,6 @@ label start:
         zoom 0.75
     with dissolve
     "The village{w}, is attacked by a dragon"
-
     show dad with dissolve
     f "RUN AIDEN, GO FIND SOMEWHERE SAFE!"
     ai "Fa-father."
@@ -57,6 +56,7 @@ label start:
     f "I'll catch you soon!"
     hide dad2 with dissolve
     ai "DAD!!!"
+
     show bg da with dissolve
     "i does what father told me to do and go as far away from the village."
     "but...{w} when i comeback..."
@@ -164,8 +164,12 @@ label out2:
     ai "hey oldman{w}, i'll be in you care."
     b "obviously."
     scene bg da with dissolve
+<<<<<<< HEAD
     centered "i have no choice."
 
+=======
+    pause
+>>>>>>> 25bbe3f3989aa746394c4747551a44c6f57bb3cc
     ###training arc###
     # Nanti tambahin semacam splash screen disini
     scene bg da with fade
