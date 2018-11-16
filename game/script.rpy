@@ -11,6 +11,9 @@ define q = Character("Queen", what_prefix='"', what_suffix= '"')
 define b = Character("Blacksmith", what_prefix='"', what_suffix= '"')
 define al = Character("Alia", what_prefix='"', what_suffix= '"')
 
+#Splashscreen
+image splash = ("splashscreen game.png")
+
 #Scene bg
 image bg in1 = ("intro.png")
 image bg in2 = ("intro2.png")
@@ -31,6 +34,18 @@ define armor = False
 define books = False
 define windows = False
 ##############################################START##################################
+label splashscreen:
+    show bg da
+    with Pause(1)
+
+    show splash with dissolve
+    with Pause(2)
+
+    scene black with dissolve
+    with Pause(1)
+
+    return
+
 label start:
     ## PROLOGUE
     # Flashback 1
