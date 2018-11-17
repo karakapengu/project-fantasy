@@ -157,7 +157,7 @@ label out2:
     "shut up oldman."
     "....."
     "wait{w}, theres one thing that i need to clear out first."
-    ai "uh... uncle."
+    ai "uh... unc- oldman."
     show bs with easeinright
     b "yes yes, what do you want from this uncle?"
     ai "what am i doing here?"
@@ -226,6 +226,35 @@ label out2:
     centered "and then i graduated."
     centered "I still waiting for aplication aproval{w}, while that still taking care of guess i'll train my body."
     scene bg trfr with dissolve
+    "....."
+    $ tr1 = 0
+    menu traini:
+        "do some calishtenics":
+            "{i}you felt stronger.{/i}"
+            $ tr1 += 1
+
+
+        "train your sword swing":
+            "{i}you felt the muscle in your arm growing and the sword became lighter.{/i}"
+            $ tr1 += 1
+
+        "climb a tree":
+            "{i}you felt a nostalgic feeling.{/i}"
+            $ tr1 += 1
+
+        "dig the ground":
+            "{i}you dig the ground beneath you...{w} and then stopped.{/i}"
+            "{i}you felt dumb.{/i}"
+            $ tr1 += 1
+    if tr1 == 2:
+        jump dsvvr
+    else:
+        jump traini
+
+label dsvvr:
+    ai "i think thats enough."
+
+
 
 
 
