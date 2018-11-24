@@ -205,6 +205,33 @@ label out2:
 
 label dsvvr:
     ai "i think thats enough."
+    ai "guess i'll go home."
+    #street bg#
+    "..."
+    "i hope i got accepted{w}, after all of that hardwork in the academy."
+    "i dont even make a single friend."
+    "its just sad to think about it."
+    merchant "hey you mister with the spiky hair."
+    ai "huh?"
+    merchant "how about buying these veggie{w}, these stuff still fresh."
+    ai "well... {w}why not?"
+    "we runs out of some ingeredients because of that oldman making to many cakes."
+    merchant "good to have business with you."
+    ai "yeah whatever."
+    "that oldman gonna be happy with these stuff."
+    #blacksmith house bg#
+    "hmm?{w} seems like oldman is talking to someone..."
+    ai "im home."
+    b "HE'S HERE!!!"
+    "i big scream by classic oldman."
+    b "hey kid there's someone i want you to meet."
+    #arthur character#
+    b "my son come to visit!"
+    #later dialogue (i forgot tehe~)#
+    b "finally my own son decided to greet this lonely oldman~"
+    b "who would guess?{w} its almost feel like a dream."
+
+
 
 
 

@@ -10,6 +10,7 @@ define k = Character("King", what_prefix='"', what_suffix= '"')
 define q = Character("Queen", what_prefix='"', what_suffix= '"')
 define b = Character("Blacksmith", what_prefix='"', what_suffix= '"')
 define al = Character("Alia", what_prefix='"', what_suffix= '"')
+define merchant = Character("Merchant", what_prefix='"', what_suffix= '"')
 
 #Scene bg
 image bg in1 = ("intro.png")
