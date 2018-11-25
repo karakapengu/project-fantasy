@@ -206,7 +206,7 @@ label out2:
 label dsvvr:
     ai "i think thats enough."
     ai "guess i'll go home."
-    #street bg#
+    scene bg stre with dissolve
     "..."
     "i hope i got accepted{w}, after all of that hardwork in the academy."
     "i dont even make a single friend."
@@ -219,13 +219,13 @@ label dsvvr:
     merchant "good to have business with you."
     ai "yeah whatever."
     "that oldman gonna be happy with these stuff."
-    #blacksmith house bg#
+    scene bg blk with dissolve
     "hmm?{w} seems like oldman is talking to someone..."
     ai "im home."
     b "HE'S HERE!!!"
     "i big scream by classic oldman."
     b "hey kid there's someone i want you to meet."
-    #arthur character#
+    show arth with dissolve
     b "my son come to visit!"
     #later dialogue (i forgot tehe~)#
     b "finally my own son decided to greet this lonely oldman~"

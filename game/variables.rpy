@@ -25,6 +25,7 @@ image bs = ("blacksmith.png")
 image dad = ("father.png")
 image dad2 = ("father2.png")
 image m = ("myster.png")
+image arth = ("arthur.png")
 
 # Other Variables
 define white = Fade(0.5, 1.0, 0.5, color="#fff")
