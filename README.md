@@ -1,9 +1,9 @@
 # Project: Fantasy
-A visual novel made by Unnamed Circle
+A visual novel made by Winterbliss Circle
 
 Title				:
 
-Duration			: 10 Hours / 5.000 Lines
+Duration			: 10 Hours or roughly 5.000 Lines
 
 Engine				: RenPy
 
@@ -12,7 +12,7 @@ Director/Producer/Author	: Glendy Lubis
 
 Art Director/Designer		: Rev and Proxy
 
-Storywriter			: Rivo, Karaka
+Storywriter			: Hiroto, Karaka
 
 Concept Art			: Karaka, Rev
 
