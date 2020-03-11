@@ -1,7 +1,9 @@
-# Project: Fantasy
+# Project: Fantasy (deprecated)
+_this project was abandon due to incompleted script_
+
 A visual novel made by Winterbliss Circle
 
-Title				:
+Title				: ?
 
 Duration			: 10 Hours or roughly 5.000 Lines
 
