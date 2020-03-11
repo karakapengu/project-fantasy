@@ -1,5 +1,5 @@
 # Project: Fantasy (deprecated)
-_this project was abandon due to incompleted script_
+_this project was abandoned due to incompleted script_
 
 A visual novel made by Winterbliss Circle
 
